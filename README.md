@@ -12,8 +12,6 @@
   Username:- SourabhPanadare
   Password:- sspp15889@wordpress
 
-  materialwp:- wp-content/themes/
-
   Edit wp_config.php to change username and password for database
 
 # Apache2 Server
@@ -62,15 +60,27 @@
 
   }
 
+
 # Navigation
 
-/wp-admin/options-permalink.php
+  /wp-admin/options-permalink.php
 
-Select Post Name Option.
+  Select Post Name Option.
 
-/wp-admin/your customize theme
+  /wp-admin/your customize theme
 
-Menus:- Create New Menu:- Check the primary checkbox to make menu visible on dashboard.
+  Menus:- Create New Menu:- Check the primary checkbox to make menu visible on dashboard.
+
+
+# MDB Theme
+
+  Reference:- https://mdbootstrap.com/integrating-wordpress-mdb/
+
+  wp-content/themes:- Create mdbblog folder:- Paste the downloaded folder in it
+
+  Refer Above Url and create following pages:- 
+
+  index.php, style.css, header.php, footer.php, function.php
 
 
 
