@@ -4,7 +4,7 @@
 
         <!-- Brand -->
         <a class="navbar-brand pt-0 waves-effect" href="">
-            <img src="wp-content/themes/mdbtheme/images/logo.png" alt="GrandVacation Logo">
+            <img src="<?php bloginfo('template_url'); ?>/images/logo.png" alt="GrandVacation Logo">
         </a>
 
         <!-- Collapse -->

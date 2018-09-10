@@ -80,4 +80,4 @@
 
   Refer Above Url and create following pages:-
 
-  index.php, style.css, header.php, footer.php, functions.php, components/navbar.inc.php
+  index.php, style.css, header.php, footer.php, functions.php, components/navbar.inc.php, components/pagination.inc.php
