@@ -8,7 +8,7 @@
 
   Open http://localhost:8090/wordpress-angular/wp-admin/setup-config.php?step=1 to set username and password for db.
 
-  SiteTitle:- wordpress_angular 
+  SiteTitle:- wordpress_angular
   Username:- SourabhPanadare
   Password:- sspp15889@wordpress
 
@@ -39,12 +39,12 @@
       index index.php index.html index.htm index.nginx-debian.html;
 
 
-      server_name _;
+      server_name ;
 
       location / {   
           try_files $uri $uri/ /index.php?$query_string;
       }
-        
+
       location ~ \.php$ {
                 try_files $uri /index.php =404;
                 fastcgi_split_path_info ^(.+\.php)(/.+)$;
@@ -78,9 +78,6 @@
 
   wp-content/themes:- Create mdbblog folder:- Paste the downloaded folder in it
 
-  Refer Above Url and create following pages:- 
+  Refer Above Url and create following pages:-
 
-  index.php, style.css, header.php, footer.php, function.php
-
-
-
+  index.php, style.css, header.php, footer.php, functions.php, components/navbar.inc.php
