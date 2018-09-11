@@ -1,6 +1,6 @@
 <?php
   get_header();
-  require_once('components/navbar.inc.php');
+  // require_once('components/navbar.inc.php');
   require_once('components/pagination.inc.php');
 ?>
 
