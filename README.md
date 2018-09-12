@@ -78,6 +78,19 @@
 
   wp-content/themes:- Create mdbblog folder:- Paste the downloaded folder in it
 
-  Refer Above Url and create following pages:-
+  
+# Wordpress General Working:-
 
-  index.php, style.css, header.php, footer.php, functions.php, components/navbar.inc.php, components/pagination.inc.php
+  wp-config.php:- To Set Wordpress Login Credentials
+
+  wp-content/uploads:- Contains photo library uploaded through wordpress.
+
+  wp-content/plugins:- Contains Plugins to be installed on wordpress.
+
+  wp-content/themes/youractivetheme/components/anyfilename.inc.php:- Used to include external file in current webpage. 
+
+  wp-content/themes/youractivetheme/fuctions.php:- To include theme related widgets and stylings.
+
+  
+
+  index.php, style.css, header.php, footer.php
