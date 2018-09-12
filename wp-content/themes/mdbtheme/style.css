@@ -26,3 +26,32 @@ Author URI: https://mdbootstrap.com
 
 .card-avatar img {
   width: 100px; }
+
+.widget-head{
+
+}
+.widget-head{
+	position: relative;
+	display: block;
+	color:#007bff;
+}
+.recent-post ul{
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style:none;
+}
+
+.recent-post ul li{
+	position: relative;
+	display: block;
+	padding: .75rem 1.25rem;
+	margin-bottom: -1px;
+	background-color: #fff;
+	border: 1px solid rgba(0,0,0,.125);
+}
+
+.recent-post ul li a{
+	color:#212529;
+}

@@ -114,7 +114,7 @@ the_post();
                 <div class="col-md-4 mb-4">
 
                     <!-- Sticky content -->
-                    <div class="sticky">
+                    <div class="sticky recent-post">
                         <!--Section: Dynamic Content Wrapper-->
                         <section>
                           <div id="dynamic-content"></div>
