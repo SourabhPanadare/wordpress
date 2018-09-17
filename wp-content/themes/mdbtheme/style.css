@@ -28,12 +28,10 @@ Author URI: https://mdbootstrap.com
   width: 100px; }
 
 .widget-head{
-
-}
-.widget-head{
 	position: relative;
 	display: block;
 	color:#007bff;
+  margin-bottom:1em;
 }
 .recent-post ul{
   display: flex;
@@ -54,4 +52,21 @@ Author URI: https://mdbootstrap.com
 
 .recent-post ul li a{
 	color:#212529;
+}
+
+.contact-widget{
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12) !important; 
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12) !important;
+    border: 0 !important;
+    padding:1em !important;
+}
+
+.contact-widget label{
+  color:#000;
+  font-weight:300 !important;
+}
+
+.wpforms-submit{
+    font-size: 12px !important;
+    padding: 1em 2em !important;
 }
