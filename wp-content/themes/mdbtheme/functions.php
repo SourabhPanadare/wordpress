@@ -18,10 +18,9 @@ add_action( 'wp_enqueue_scripts', 'theme_enqueue_scripts' );
 
 
 /**
- * Setup Theme
+ * Add featured image support
  */
 function mdbtheme_setup() {
-    // Add featured image support
     add_theme_support('post-thumbnails');
 }
 add_action('after_setup_theme', 'mdbtheme_setup');

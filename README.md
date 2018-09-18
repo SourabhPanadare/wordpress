@@ -14,17 +14,18 @@
 
   Edit wp_config.php to change username and password for database
 
+
 # Apache2 Server
 
   .htaccess file
 
   <IfModule mod_rewrite.c>
-	RewriteEngine On
-	RewriteBase /wordpress-angular/
-	RewriteRule ^index\.php$ - [L]
-	RewriteCond %{REQUEST_FILENAME} !-f
-	RewriteCond %{REQUEST_FILENAME} !-d
-	RewriteRule . /wordpress-angular/index.php [L]
+  	RewriteEngine On
+  	RewriteBase /wordpress-angular/
+  	RewriteRule ^index\.php$ - [L]
+  	RewriteCond %{REQUEST_FILENAME} !-f
+  	RewriteCond %{REQUEST_FILENAME} !-d
+  	RewriteRule . /wordpress-angular/index.php [L]
   </IfModule>
 
 # Nginx Setup
@@ -60,6 +61,9 @@
 
   }
 
+# Email Configuration
+
+https://wpforms.com/how-to-fix-wordpress-contact-form-not-sending-email-issue/
 
 # Navigation
 
@@ -91,6 +95,38 @@
 
   wp-content/themes/youractivetheme/fuctions.php:- To include theme related widgets and stylings.
 
-  
-
   index.php, style.css, header.php, footer.php
+
+
+  header.php:- <?php wp_head(); ?>
+  footer.php:- <?php wp_footer(); ?>
+
+  index.php:- 
+
+  <?php
+    get_header();
+    require_once('components/navbar.inc.php');
+    require_once('components/pagination.inc.php');
+  ?>
+
+  <?php  
+    require_once('components/footer.inc.php');
+    get_footer(); 
+  ?>
+
+
+  For & While Loop
+
+  <?php
+    if ( have_posts() ) {
+      $counter = 1;
+      while ( have_posts() ) {
+        the_post();
+  ?>
+
+  <?php     
+      } // end while
+    } // end if
+  ?>
+
+  
