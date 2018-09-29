@@ -1,6 +1,7 @@
 # WordPress Installation Steps:-
 
   Reference:- https://www.nginx.com/blog/installing-wordpress-with-nginx-unit/
+              https://traveltriangle.com/blog/best-family-holiday-destinations-in-india/
 
   Download wordpress form url https://wordpress.org/download/
 
@@ -82,7 +83,7 @@ https://wpforms.com/how-to-fix-wordpress-contact-form-not-sending-email-issue/
 
   wp-content/themes:- Create mdbblog folder:- Paste the downloaded folder in it
 
-  
+
 # Wordpress General Working:-
 
   wp-config.php:- To Set Wordpress Login Credentials
@@ -91,7 +92,7 @@ https://wpforms.com/how-to-fix-wordpress-contact-form-not-sending-email-issue/
 
   wp-content/plugins:- Contains Plugins to be installed on wordpress.
 
-  wp-content/themes/youractivetheme/components/anyfilename.inc.php:- Used to include external file in current webpage. 
+  wp-content/themes/youractivetheme/components/anyfilename.inc.php:- Used to include external file in current webpage.
 
   wp-content/themes/youractivetheme/fuctions.php:- To include theme related widgets and stylings.
 
@@ -101,7 +102,7 @@ https://wpforms.com/how-to-fix-wordpress-contact-form-not-sending-email-issue/
   header.php:- <?php wp_head(); ?>
   footer.php:- <?php wp_footer(); ?>
 
-  index.php:- 
+  index.php:-
 
   <?php
     get_header();
@@ -111,7 +112,7 @@ https://wpforms.com/how-to-fix-wordpress-contact-form-not-sending-email-issue/
 
   <?php  
     require_once('components/footer.inc.php');
-    get_footer(); 
+    get_footer();
   ?>
 
 
@@ -128,5 +129,3 @@ https://wpforms.com/how-to-fix-wordpress-contact-form-not-sending-email-issue/
       } // end while
     } // end if
   ?>
-
-  
